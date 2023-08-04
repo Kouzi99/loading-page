@@ -1,0 +1,30 @@
+.menu {
+    display: flex;
+    justify-content: center;
+    padding: 20px 20px 20px 20px;
+    
+}
+.elements{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2em;
+    padding: 20px;
+    color: rgb(189, 113, 51);
+    flex: 2;
+    text-align: center;
+    border: 1px;
+    border-style:groove;
+    border-color: rgb(170, 43, 43);
+    margin: 5px;
+
+}
+#klik{
+    color: rgb(20, 13, 13);
+    
+}
+
+body{
+    background-color: rgba(112, 82, 138, 0.432);
+}
+button{
+    color: black;
+}
