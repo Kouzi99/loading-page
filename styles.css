@@ -11,8 +11,8 @@ body{
     flex: 1;
     
     background-color: rgba(247,247,247,255);
-    padding-top: 1em;
-    padding-bottom: 1em;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
 
     
 }
@@ -22,31 +22,31 @@ body{
     color: rgb(0, 0, 0);
     align-items: center;
     text-decoration-line: none;
-    margin: 10px;
+    margin: 1vw;
     justify-content: space-around;
-    font-size: 1.7em;
+    font-size: 1.7vw;
 
 
 }
 img#logo { 
-    height: 120px;
+    height: 9vw;
     width: auto;
-    margin-left: 20px;
-    margin-right: 70em;
+    margin-left: 2vw;
+    margin-right: 14vw;
 }
 h1.left{
-    font-size: 3em;
+    font-size: 3vw;
     font-style: normal;
-    margin: 0em;
+    margin: 0vw;
 }
 p.left{
-    font-size: 2em;
-    margin-right: 19em;
+    font-size: 2vw;
+    margin-right: 10vw;
 }
 .info{
     background-color: rgb(184, 169, 151);;
     display: flex;
-    padding: 2em 0 2em 2em;
+    padding: 2vw 0 2vw 2vw;
 }
 .left{
     
@@ -55,14 +55,14 @@ p.left{
 img#right{
 
     width: auto;
-    height: 350px;
-    margin-right: 5em;
+    height: 24vw;
+    margin-right: 5vw;
     
 
 }
 .middle{
 text-align: center;
-font-size: 25px;
+font-size: 2vw;
 
 }
 
@@ -71,7 +71,7 @@ font-size: 25px;
     justify-content: center;
 }
 img.product{
-    height: 350px;
+    height: 40vw;
     width: auto;
     
 }
@@ -85,14 +85,14 @@ img.product{
 
 
 .text{
-    font-size: 30px;
+    font-size: 3vw;
     background-color: bisque;
-    padding: 20px 80px 20px 80px;
+    padding: 2vw 8vw 2vw 8vw;
     
 }
 
 footer{
-    padding: 90px;
+    padding: 9vw;
     background-color: rgba(75, 85, 40, 0.808);
 }
 .maps{
