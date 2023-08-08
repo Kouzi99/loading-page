@@ -96,5 +96,10 @@ footer{
     background-color: rgba(75, 85, 40, 0.808);
 }
 .maps{
-
+    width:300vW; 
+    height:100vW; 
+    frameborder:0; 
+    scrolling:no;
+    marginheight:0;
+    marginwidth:0;
 }
