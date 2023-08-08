@@ -1,30 +1,100 @@
-.menu {
+body{
+    padding: 0;
+    margin: 0;
+    font-family:monospace
+    
+    
+}
+
+.top {
+    display: flex;
+    flex: 1;
+    
+    background-color: rgba(247,247,247,255);
+    padding-top: 1em;
+    padding-bottom: 1em;
+
+    
+}
+.nav{
+    display: flex;
+    flex: 3;
+    color: rgb(0, 0, 0);
+    align-items: center;
+    text-decoration-line: none;
+    margin: 10px;
+    justify-content: space-around;
+    font-size: 1.7em;
+
+
+}
+img#logo { 
+    height: 120px;
+    width: auto;
+    margin-left: 20px;
+    margin-right: 70em;
+}
+h1.left{
+    font-size: 3em;
+    font-style: normal;
+    margin: 0em;
+}
+p.left{
+    font-size: 2em;
+    margin-right: 19em;
+}
+.info{
+    background-color: rgb(184, 169, 151);;
+    display: flex;
+    padding: 2em 0 2em 2em;
+}
+.left{
+    
+    flex: 1;
+}
+img#right{
+
+    width: auto;
+    height: 350px;
+    margin-right: 5em;
+    
+
+}
+.middle{
+text-align: center;
+font-size: 25px;
+
+}
+
+.product{
     display: flex;
     justify-content: center;
-    padding: 20px 20px 20px 20px;
+}
+img.product{
+    height: 350px;
+    width: auto;
     
 }
-.elements{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 2em;
-    padding: 20px;
-    color: rgb(189, 113, 51);
-    flex: 2;
-    text-align: center;
-    border: 1px;
-    border-style:groove;
-    border-color: rgb(170, 43, 43);
-    margin: 5px;
-
-}
-#klik{
-    color: rgb(20, 13, 13);
+.Items{
+    
+    display: flex;
+    flex-direction: column;
+    
     
 }
 
-body{
-    background-color: rgba(112, 82, 138, 0.432);
+
+.text{
+    font-size: 30px;
+    background-color: bisque;
+    padding: 20px 80px 20px 80px;
+    
 }
-button{
-    color: black;
+
+footer{
+    padding: 90px;
+    background-color: rgba(75, 85, 40, 0.808);
+}
+.maps{
+
 }
